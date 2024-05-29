@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.productsText {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.block {
+  width: 300px;
+  height: 700px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.prImg {
+  width: 100%;
+  height: auto;
+}
+
+.prInfo {
+  padding: 20px;
+}
+
+.prTitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.prPrice {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+.prRating {
+  font-size: 1rem;
+  color: #718096;
+}
+
+.allBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
